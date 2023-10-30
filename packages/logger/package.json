@@ -1,0 +1,25 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsup --config ./tsup.config.ts"
+  },
+  "dependencies": {
+    "pino": "^8.16.1"
+  },
+  "devDependencies": {
+    "esbuild-plugin-pino": "^2.1.0",
+    "pino-pretty": "^10.2.3",
+    "tsup": "^7.2.0"
+  }
+}
